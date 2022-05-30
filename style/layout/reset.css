@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+:root {
+   --primary-color: #8a70d6;
+   --light-primary-color: #e9e3fe;
+   --blue-color:#579be4;
+   --light-blue-color:#e5f3fe;
+   --orange-color:#fcab5e;
+   --light-orange-color:#fff0e1;
+   --pink-color:#db93d4;
+   --light-pink-color:#fee3fc;
+   --black-color: #000;
+   --dark-color: #424040;
+   --white-color: #fff;
+   --light-color: #f8f8f8;
+   --secondary-color: #96989e;
+   --secondary-color2: #dedfe2;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+body {
+    font-size: 1.5rem;
+}
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.btn {
+    color: var(--white-color);
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    outline: 0;    
+    border: none;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+
+
+
+ 
+
+
