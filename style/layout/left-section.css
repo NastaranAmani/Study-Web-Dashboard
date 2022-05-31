@@ -38,15 +38,11 @@
     transition: all 0.3s ease-in;
     margin-top: 0.2rem;
 }
-/* .left-section-menu li .active {
-    color: var(--dark-color);
-    background-color: var(--light-primary-color);
-} */
-.left-section-menu .active-item  {
+.left-section-menu .active-item a {
    color: var(--dark-color);
    background-color: var(--light-primary-color);
 }
-.left-section-menu .list-item:hover {
+.left-section-menu .list-item a:hover {
     color: var(--dark-color);
     background-color: var(--light-primary-color);
     /* background-image: linear-gradient(266deg, rgba(219,147,212,1) 14%, rgba(138,112,214,1) 100%);
@@ -57,11 +53,6 @@
 .left-section-menu span {
     padding-left: 0.7rem;
 }
-/* .left-section-menu  {
-    color: var(--dark-color);
-    background-color: var(--light-primary-color);
-} */
-
 .premium-subscription {
     height: 270px;
     margin-top: 5rem;
