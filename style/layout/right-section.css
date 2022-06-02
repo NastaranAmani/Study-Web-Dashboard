@@ -1,5 +1,5 @@
 #right-section {
-    margin: 0 3rem;
+    margin: 0 2rem;
 }
 .right-header {
     display: flex;
@@ -205,8 +205,8 @@
   
   .days {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     padding: 0.2rem;
   }
   
