@@ -1,6 +1,5 @@
 #right-section {
     margin: 0 3rem;
-    padding-bottom: 2rem;
 }
 .right-header {
     display: flex;
@@ -97,10 +96,8 @@
     align-items: center;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 } 
-/* .progress-box:hover {
-    background-color: var(--light-primary-color);
-} */
 .active-progress, .progress-box:hover {
     background-color: var(--light-primary-color);
 }
@@ -135,8 +132,6 @@
     font-size: 1.2rem;
     color: var(--secondary-color);
 }
-
-
 
 .progress-percentage-1 {
     background: radial-gradient(white 59%, transparent 60%), 
@@ -198,14 +193,14 @@
   }
   
   .weekdays div {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     letter-spacing: 0.1rem;
     width: calc(38rem / 7);
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin: auto;
   }
   
   .days {
@@ -216,15 +211,15 @@
   }
   
   .days div {
+    margin: auto;
     background-color: transparent;
     font-size: 1.4rem;
-    margin: 0.2rem;
+    margin: 0.5rem;
     width: calc(35.2rem / 7);
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
   
   .days div:hover:not(.today) {
