@@ -1,4 +1,27 @@
-// -----calender----- 
+// menu
+var menu = document.getElementById("nav-list");
+var items = menu.getElementsByClassName("list-item");
+for (var i = 0; i < items.length; i++) {
+  items[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-item");
+  current[0].className = current[0].className.replace(" active-item", "");
+  this.className += " active-item";
+  });
+}
+
+
+// progress box
+var progress = document.getElementById("homework-progress");
+var boxes = progress.getElementsByClassName("progress-box");
+for (var i = 0; i < boxes.length; i++) {
+  boxes[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active-progress");
+  current[0].className = current[0].className.replace(" active-progress", "");
+  this.className += " active-progress";
+  });
+}
+
+// calender
 
 const date = new Date();
 
