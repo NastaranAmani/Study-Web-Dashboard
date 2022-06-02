@@ -8,7 +8,9 @@ for (var i = 0; i < items.length; i++) {
   this.className += " active-item";
   });
 }
-
+document.getElementById("nav-list").addEventListener("click", function(event){
+  event.preventDefault()
+});
 
 // progress box
 var progress = document.getElementById("homework-progress");
