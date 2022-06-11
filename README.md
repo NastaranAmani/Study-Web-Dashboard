@@ -26,7 +26,7 @@ This project is redesigned from a <a href="https://dribbble.com/shots/18289015-S
 <div align="center">
     <img src="./assets/Dashboard-Demo.png" alt="" width="700">
 </div>
-
+<br />
 What makes this product different is the pleasent experience you'll have, due to its organized items and UI/UX Design.
 Of course, It is not the best platform yet, but we are adding new features every day to make it the best you've ever seen.
 
@@ -41,8 +41,8 @@ Of course, It is not the best platform yet, but we are adding new features every
 ## Roadmap
 
 - [&#xD7;] Implement design
-- [ ] Fix operating problems
-- [ ] Add history
+- [ ] Fix edit profile
+- [ ] Fix premium subscription 
 
 <!-- CONTRIBUTING -->
 
